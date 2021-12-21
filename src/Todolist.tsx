@@ -50,6 +50,7 @@ export const Todolist = (props: PropsType) => {
         <h3>{props.title}</h3>
         <div>
             <input
+
                 value={title}
                 onChange={onClickChangeTitle}
                 onKeyPress={onKeyPressAddTask}
